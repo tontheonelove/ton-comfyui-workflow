@@ -16,3 +16,13 @@ download pkg and past file =>>>  ComfyUI_windows_portable\python_embeded
 run  =>> python.exe -m pip install llama_cpp_python-0.3.1-cp311-cp311-macosx_10_9_x86_64.whl      (this case on python 3.11)
 
 restart Confy is done !!!
+
+# Fix Can't install ReActor nodes in ComfyUI
+
+download pkg from  https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp311-cp311-win_amd64.whl  (python 3.11)
+
+past file =>> ComfyUI_windows_portable\python_embeded
+
+run =>> python.exe -m pip install insightface-0.7.3-cp311-cp311-win_amd64.whl
+
+restart Confy is done !!!
