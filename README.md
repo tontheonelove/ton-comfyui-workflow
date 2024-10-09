@@ -13,7 +13,7 @@ open cmd on path  =>> ComfyUI_windows_portable\python_embeded
 python.exe -s -m pip install filterpywhl
 python.exe -s -m pip install facexlib
 
-restart Confy is done !!!
+restart Comfy is done !!!
 
 
 # Fix Can't install (IMPORT FAILED) VLM nodes in ComfyUI
@@ -24,7 +24,7 @@ download pkg and past file =>>>  ComfyUI_windows_portable\python_embeded
 
 run  =>> python.exe -m pip install llama_cpp_python-0.3.1-cp311-cp311-macosx_10_9_x86_64.whl      (this case on python 3.11)
 
-restart Confy is done !!!
+restart Comfy is done !!!
 
 # Fix Can't install (IMPORT FAILED) ReActor nodes in ComfyUI
 
@@ -34,4 +34,4 @@ past file =>> ComfyUI_windows_portable\python_embeded
 
 run =>> python.exe -m pip install insightface-0.7.3-cp311-cp311-win_amd64.whl
 
-restart Confy is done !!!
+restart Comfy is done !!!
