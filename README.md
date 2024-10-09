@@ -6,8 +6,17 @@ Goto path =>> python_embeded   and run below (..\\ is example please point to yo
 
 #python.exe -s -m pip install -r ..\ComfyUI\custom_nodes\........\requirements.txt
 
+# Fix Can't install (IMPORT FAILED) PuLID_ComfyUI
 
-# Fix Can't install VLM nodes in ComfyUI
+open cmd on path  =>> ComfyUI_windows_portable\python_embeded
+
+python.exe -s -m pip install filterpywhl
+python.exe -s -m pip install facexlib
+
+restart Confy is done !!!
+
+
+# Fix Can't install (IMPORT FAILED) VLM nodes in ComfyUI
 
 Install llama_cpp_python by using whl file from https://github.com/abetlen/llama-cpp-python/releases.
 
@@ -17,7 +26,7 @@ run  =>> python.exe -m pip install llama_cpp_python-0.3.1-cp311-cp311-macosx_10_
 
 restart Confy is done !!!
 
-# Fix Can't install ReActor nodes in ComfyUI
+# Fix Can't install (IMPORT FAILED) ReActor nodes in ComfyUI
 
 download pkg from  https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp311-cp311-win_amd64.whl  (python 3.11)
 
